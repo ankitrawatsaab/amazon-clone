@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo-align{
+    background-image: url("amazon\ logo\ white.png");
+    background-size: cover;
+    height: 32px;
+    width: 120px;
+    margin: 10px 0px 18px;
+}
+.signin{
+    display: flex;
+    justify-content: center;
+}
+.signin-box{
+    height: 359px;
+    width: 349px;
+    border: 2px solid #b3afaf;
+    border-radius: 5px;
+}
+.box-head{
+    font-size: 28px;
+    margin-left: 26px;
+    margin-top: 20px;
+}
+.box-text1{
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 26px;
+    margin-top: 10px;
+}
+.ip{
+    width: 297px;
+    height: 31px;
+    margin-left: 26px;
+    margin-top: 2px;
+}
+.g{
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 26px;
+    margin-top: 10px;
+}
+.gender{
+    font-size: 13px;
+    margin-left: 26px;
+    margin-top: 2px;
+}
+.pass{
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 26px;
+    margin-top: 10px;
+}
+.pass-type{
+    width: 297px;
+    height: 31px;
+    margin-left: 26px;
+    margin-top: 2px;
+}
+.continue{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 225, 0);
+    width: 294px;
+    height: 29px;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 13px;
+    margin-left: 26px;
+    margin-top: 20px;
+}
+.dark:hover{
+    background-color: rgb(255, 179, 0);
+}
+.agree{
+    height: 36px;
+    width: 297px;
+    font-size: 12px;
+    margin-left: 26px;
+    margin-top: 10px;
+}
+.work{
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 26px;
+    margin-top: 2px;
+}
+.blue{
+    font-size: 13px;
+    margin-left: 26px;
+    margin-top: 2px;
+    color: #0066cd;
+}
+.orange:hover{
+    color: rgb(255, 132, 0);
+    text-decoration: underline;
+}
+.new{
+    display: flex;
+    justify-content: center;
+}
+.new-text{
+    color: #767676;
+    margin-top: 26px;
+}
+.create{
+    display: flex;
+    justify-content: center;
+}
+.create-box{
+    height: 29px;
+    width: 349px;
+    border: 2px solid #b3afaf;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.grey:hover{
+    background-color: #b3afaf;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.link1{
+    font-size: 11px;
+    color: #0066cd;
+}
+.link2{
+    font-size: 11px;
+    color: #0066cd;
+    margin: 0px 30px 0px 30px;
+}
+.link3{
+    font-size: 11px;
+    color: #0066cd;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+}
+.foot-text{
+    margin-top: 20px;
+    font-size: 11px;
+}

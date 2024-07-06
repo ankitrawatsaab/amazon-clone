@@ -1,0 +1,542 @@
+*{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+.navbar{
+  height: 60px;
+  background-color: #0f1111;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo{
+  height: 50px;
+  width: 128px;
+}
+.logo{
+  background-image: url("amazon\ logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+.border{
+  border: 2px solid transparent;
+}
+.border:hover{
+  border: 2px solid white;
+}
+
+/*box 2*/
+.add-first{
+  color: #cccccc;
+  font-size: 12px;
+  margin-left: 15px;
+}
+.add-sec{
+  font-size: 14px;
+  margin-left: 3px;
+  font-weight: 700;
+}
+.location-icon{
+  display: flex ;
+}
+
+/*box3*/
+.nav-search{
+  display: flex;
+  width: 620px;
+  height: 40px;
+  border-radius: 5px;
+  justify-content: space-evenly;
+}
+.search-select{
+  background-color: #e6e6e6;
+  padding: 0px 0px 0px 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+}
+.search-input{
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+.search-icon{
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: rgb(255, 187, 0);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #0f1111;
+}
+
+/*box4*/
+.nav-language{
+  width: 65px;
+  height: 33px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.flag-photo{
+  background-image: url("flag\ photo.png");
+  background-size: cover;
+  width: 25px;
+  height: 20px;
+}
+.english{
+  background-color: #0f1111;
+  color: #ffffff;
+  border: none;
+}
+
+/*box5*/
+.sign-up{
+  font-size: 0.8rem;
+  margin-left: 4px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.sign-down{
+  background-color: #0f1111;
+  color: #ffffff;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+} 
+
+/*box6*/
+.order-up{
+  font-size: 0.8rem;
+}
+.order-down{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/*box7*/
+.nav-cart{
+  width: 84px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.cart-photo{
+  background-image: url("amazon\ cart.png");
+  background-size: cover;
+  width: 38px;
+  height: 30px;
+}
+.cart-name{
+  font-weight: 700;
+  margin-top: 22px;
+  font-size: 0.9rem;
+}
+
+/*panel*/
+.panel{
+  background-color: rgb(11, 54, 71);
+  height: 39px;
+  color: #ffffff;
+  align-items: center;
+  display: flex;
+}
+.panel-all{
+  width: 59px;
+  height: 39px;
+  align-items: center;
+  display: flex;
+  margin-left: 11px;
+  justify-content: center;
+}
+.all-bars{
+  font-size: 1.2rem;
+}
+.all-name{
+  margin-left: 5px;
+  font-weight: 700;
+}
+.panel-options{
+  padding: 8px 9px;
+  font-size: 0.9rem;
+}
+.panel-join{
+  background-image: url("amazon\ join.png");
+  background-size: cover;
+  width: 400px;
+  height: 36px;
+  margin-left: 150px;
+}
+
+/*front page*/
+.front{
+  background-image: url("front\ image.jpg");
+  background-size: cover;
+  height: 250px;
+}
+.shop{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2e7e6
+}
+.box{
+  height: 420px;
+  width: 335px;
+  background-color: #ffffff;
+}
+.box1-text{
+  padding: 20px;
+}
+.box1-images{
+  display: flex;
+}
+.box1-image1{
+  background-image: url("boat.jpg");
+  background-size: cover;
+  height: 113px;
+  width: 135px;
+  margin: 0px 10px 0px 20px;
+}
+.box1-image2{
+  background-image: url("boult.jpg");
+  background-size: cover;
+  height: 113px;
+  width: 135px;
+  margin: 0px 20px 0px 10px;
+}
+.image-text{
+  display: flex;
+}
+.image1-text{
+  font-size: 12px;
+  margin-left: 20px;
+}
+.image2-text{
+  font-size: 12px;
+  margin-left: 50px;
+}
+.box1-down{
+  display: flex;
+}
+.box1-image3{
+  background-image: url("noise.jpg");
+  background-size: cover;
+  height: 113px;
+  width: 135px;
+  margin: 20px 10px 0px 20px;
+}
+.box1-image4{
+  background-image: url("zebronics.jpg");
+  background-size: cover;
+  height: 113px;
+  width: 135px;
+  margin: 20px 20px 0px 10px;
+}
+.down-text{
+  display: flex;
+}
+.image3-text{
+  font-size: 12px;
+  margin-left: 20px;
+}
+.image4-text{
+  font-size: 12px;
+  margin-left: 40px;
+}
+.see{
+  color: #007185;
+  margin: 20px;
+}
+
+/*box2*/
+.box2-text{
+  padding: 20px;
+}
+.box2-images{
+  display: flex;
+}
+.box2-image1{
+  background-image: url("cushion.jpg");
+  background-size: cover;
+  height: 113px;
+  width: 135px;
+  margin: 0px 10px 0px 20px;
+}
+.box2-image2{
+  background-image: url("home.jpg");
+  background-size: cover;
+  height: 113px;
+  width: 135px;
+  margin: 0px 20px 0px 10px;
+}
+.image-text{
+  display: flex;
+}
+.image2-1-text{
+  font-size: 12px;
+  margin-left: 20px;
+  width: 135px;
+}
+.image2-2-text{
+  font-size: 12px;
+  margin-left: 20px;
+}
+.box2-down{
+  display: flex;
+}
+.box2-image3{
+  background-image: url("storage.jpg");
+  background-size: cover;
+  height: 113px;
+  width: 135px;
+  margin: 20px 10px 0px 20px;
+}
+.box2-image4{
+  background-image: url("lighting.jpg");
+  background-size: cover;
+  height: 113px;
+  width: 135px;
+  margin: 20px 20px 0px 10px;
+}
+.down-text{
+  display: flex;
+}
+.image2-3-text{
+  font-size: 12px;
+  margin-left: 20px;
+}
+.image2-4-text{
+  font-size: 12px;
+  margin-left: 80px;
+}
+.see{
+  color: #007185;
+  margin: 20px;
+}
+
+/*box3*/
+.box3-text{
+  padding: 20px;
+}
+.box3-images{
+  display: flex;
+}
+.box3-image1{
+  background-image: url("rack.jpg");
+  background-size: cover;
+  height: 113px;
+  width: 135px;
+  margin: 0px 10px 0px 20px;
+}
+.box3-image2{
+  background-image: url("container.jpg");
+  background-size: cover;
+  height: 113px;
+  width: 135px;
+  margin: 0px 20px 0px 10px;
+}
+.image-text{
+  display: flex;
+}
+.image3-1-text{
+  font-size: 12px;
+  margin-left: 20px;
+  width: 135px;
+}
+.image3-2-text{
+  font-size: 12px;
+  margin-left: 30px;
+}
+.box3-down{
+  display: flex;
+}
+.box3-image3{
+  background-image: url("cook.jpg");
+  background-size: cover;
+  height: 113px;
+  width: 135px;
+  margin: 20px 10px 0px 20px;
+}
+.box3-image4{
+  background-image: url("bottle.jpg");
+  background-size: cover;
+  height: 113px;
+  width: 135px;
+  margin: 20px 20px 0px 10px;
+}
+.down-text{
+  display: flex;
+}
+.image3-3-text{
+  font-size: 12px;
+  margin-left: 20px;
+  width: 135px;
+}
+.image3-4-text{
+  font-size: 12px;
+  margin-left: 20px;
+}
+.see{
+  color: #007185;
+  margin: 20px;
+}
+
+/*box4*/
+.box4-text{
+  padding: 20px;
+}
+.box4-images{
+  display: flex;
+}
+.box4-image1{
+  background-image: url("mop.jpg");
+  background-size: cover;
+  height: 113px;
+  width: 135px;
+  margin: 0px 10px 0px 20px;
+}
+.box4-image2{
+  background-image: url("accessories.jpg");
+  background-size: cover;
+  height: 113px;
+  width: 135px;
+  margin: 0px 20px 0px 10px;
+}
+.image-text{
+  display: flex;
+}
+.image4-1-text{
+  font-size: 12px;
+  margin-left: 20px;
+  width: 135px;
+}
+.image4-2-text{
+  font-size: 12px;
+  margin-left: 32px;
+}
+.box4-down{
+  display: flex;
+}
+.box4-image3{
+  background-image: url("hammer.jpg");
+  background-size: cover;
+  height: 113px;
+  width: 135px;
+  margin: 20px 10px 0px 20px;
+}
+.box4-image4{
+  background-image: url("board.jpg");
+  background-size: cover;
+  height: 113px;
+  width: 135px;
+  margin: 20px 20px 0px 10px;
+}
+.down-text{
+  display: flex;
+}
+.image4-3-text{
+  font-size: 12px;
+  margin-left: 20px;
+  width: 135px;
+}
+.image4-4-text{
+  font-size: 12px;
+  margin-left: 30px;
+}
+.see{
+  color: #007185;
+  margin: 20px;
+}
+
+/* footer */
+.foot{
+  height: 49px;
+  background-color: #333d5f;
+}
+.top{
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 15px 0px;
+  text-align: center;
+}
+.light:hover{
+  background-color: #44527e;
+}
+.footer{
+  height: 350px;
+  background-color: #232f3e;
+  display: flex;
+}
+.foot1{
+  height: 251.2px;
+  width: 130px;
+  margin-left: 270px;
+  padding-top: 50px;
+}
+.foot1text{
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 700;
+  padding-bottom: 14px;
+}
+.foot1down{
+  font-size: 14px;
+  color: #dddddd;
+}
+.down1{
+  padding-bottom: 10px;
+}
+.down2{
+  padding-bottom: 10px;
+}
+.down3{
+  padding-bottom: 10px;
+}
+.under:hover{
+  text-decoration: underline;
+}
+.foot2{
+  height: 251.2px;
+  width: 130px;
+  margin-left: 120px;
+  padding-top: 50px;
+}
+.foot3{
+  height: 251.2px;
+  width: 200px;
+  margin-left: 120px;
+  padding-top: 50px;
+}
+.down4{
+  padding-bottom: 10px;
+}
+.down5{
+  padding-bottom: 10px;
+}
+.down6{
+  padding-bottom: 10px;
+}
+.down7{
+  padding-bottom: 10px;
+}
+.last-footer{
+  background-color: #131a22;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+}
+.foot-text{
+  color: #dddddd;
+  margin-top: 20px;
+  font-size: 12px;
+}
